@@ -105,6 +105,16 @@ nav ul li:nth-child(2) {
     margin-right: 31px;
 }
 
+nav a:hover,
+.slider li i:hover {
+    color: #fdcb6a;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -ms-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
 .slider {
     margin-left: 1224px;
     margin-top: 470px;
@@ -120,7 +130,6 @@ nav ul li:nth-child(2) {
 .slider ul li {
     display: inline-block;
     margin-left: 11px;
-
 }
 
 .slider ul li:last-child {
@@ -131,21 +140,53 @@ nav ul li:nth-child(2) {
 
 .block_3 {
     height: 210px;
-    background: #111;
+    /*background: #333;*/
     margin-top: 46px;
 }
 
-.block_3 > span {
+.helper_block_3 > .flex-container > p {
     font-size: 50px;
     font-weight: 800;
     text-transform: uppercase;
-    /*color: #000;*/
+    letter-spacing: 4px;
     background: -webkit-linear-gradient(left, #0e1657, #056ab2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.block_3 span {
-    display: inline-block;
-    vertical-align: middle;
+.flex-container p {
+    display: inline-flex;
+
+}
+
+.flex-container {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.features {
+    margin-left: 62px;
+}
+
+.helper_block_3 {
+    padding-top: 18px;
+    margin-left: 66px;
+}
+
+.features > div {
+    width: 250px;
+}
+
+.features > div div {
+    /*width: 180px;*/
+    display: table;
+    margin-left: 12px;
+}
+
+.icons-text {
+    color: #000;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial;
 }
