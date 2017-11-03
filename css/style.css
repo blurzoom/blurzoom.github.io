@@ -176,6 +176,8 @@ nav a:hover,
 
 .features > div {
     width: 250px;
+    justify-content: space-around;
+
 }
 
 .features > div div {
@@ -189,4 +191,9 @@ nav a:hover,
     font-size: 25px;
     font-weight: 600;
     font-family: Arial;
+}
+
+.icons-text sup {
+    font-size: 10px;
+    text-transform: uppercase;
 }
