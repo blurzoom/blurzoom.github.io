@@ -88,13 +88,14 @@ nav ul {
     list-style: none;
 }
 
-nav ul a {
+nav ul a, #line1_right a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     font-size: 22px;
     font-weight: bold;
 }
+
 
 nav ul li {
     display: inline-block;
@@ -106,13 +107,24 @@ nav ul li:nth-child(2) {
 }
 
 nav a:hover,
-.slider li i:hover {
+.slider li i:hover,
+div.flex-container.icons-text a:hover {
     color: #fdcb6a;
     -webkit-transition: color 0.5s;
     -moz-transition: color 0.5s;
     -ms-transition: color 0.5s;
     -o-transition: color 0.5s;
     transition: color 0.5s;
+
+}
+
+#line1_right img:hover {
+    filter: saturate(200) hue-rotate(200deg) ;
+    -webkit-transition: filter 0.5s;
+    -moz-transition: filter 0.5s;
+    -ms-transition: filter 0.5s;
+    -o-transition: filter 0.5s;
+    transition: filter 0.5s;
 }
 
 .slider {
@@ -156,6 +168,7 @@ nav a:hover,
 
 .flex-container p {
     display: inline-flex;
+    padding-right: 62px;
 
 }
 
@@ -166,7 +179,11 @@ nav a:hover,
 }
 
 .features {
-    margin-left: 62px;
+    /*margin-left: 62px;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*align-items: center;*/
+    /*justify-content: space-around;*/
 }
 
 .helper_block_3 {
@@ -176,7 +193,6 @@ nav a:hover,
 
 .features > div {
     width: 250px;
-    justify-content: space-around;
 
 }
 
@@ -196,4 +212,21 @@ nav a:hover,
 .icons-text sup {
     font-size: 10px;
     text-transform: uppercase;
+}
+
+div.flex-container.icons-text:nth-child(4n) {
+    padding-left: 16px;
+}
+
+div.flex-container.icons-text:nth-child(3n) {
+    padding-left: 10px;
+}
+
+div.flex-container.icons-text:nth-child(5n) {
+    padding-left: 46px;
+}
+
+div.flex-container.icons-text a {
+    text-decoration: none;
+    color: #000;
 }
