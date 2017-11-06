@@ -112,8 +112,6 @@ div.flex-container.icons-text a:hover {
     color: #fdcb6a;
     -webkit-transition: color 0.5s;
     -moz-transition: color 0.5s;
-    -ms-transition: color 0.5s;
-    -o-transition: color 0.5s;
     transition: color 0.5s;
 
 }
@@ -122,7 +120,6 @@ div.flex-container.icons-text a:hover {
     filter: saturate(200) hue-rotate(200deg) ;
     -webkit-transition: filter 0.5s;
     -moz-transition: filter 0.5s;
-    -ms-transition: filter 0.5s;
     -o-transition: filter 0.5s;
     transition: filter 0.5s;
 }
@@ -206,7 +203,7 @@ div.flex-container.icons-text a:hover {
     color: #000;
     font-size: 25px;
     font-weight: 600;
-    font-family: Arial;
+    font-family: "Open Sans", Arial, sans-serif;
 }
 
 .icons-text sup {
