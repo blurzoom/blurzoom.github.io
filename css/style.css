@@ -230,3 +230,45 @@ div.flex-container.icons-text a {
     text-decoration: none;
     color: #000;
 }
+
+.end-block {
+    float: left;
+}
+
+.section_2 {
+    float: left;
+    width: 100%;
+    padding: 49px 0 50px 0;
+    background: #000;
+}
+
+.section_2 div span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.section_2 > div > .flex-container {
+    display: flex;
+    padding: 0 132px 0 118px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.big-icon-text {
+    display: inline-flex;
+    align-items: center;
+}
+
+.big-icon-text span {
+    margin-left: 15px;
+    letter-spacing: 0.075em;
+}
+
+.big-icon-text img {
+    margin-left: 0;
+    margin-right: 5px;
+}
